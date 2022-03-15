@@ -1,2 +1,30 @@
-Read Me
-Election Analysis
+Election Analysis 
+# Audit purposes 
+We have been given a CSV contain over 369,711 of election results over the last election. Our job is too to audit the election using Python and VBA scripts to provide the an audit of the results and provide a script that can be used for future election results
+#Summary
+Using our python script we came to these result 
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+
+County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+-------------------------
+Largest County Turnout: Denver
+-------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+
+#Challenges
+For me personally was making sure that the files loaded correctly and where correctly pathed to the multiple times while working on this I got Errors 2 that meant that the files where not present. Another thing to mention was putting : at the end of ifs to correctly end them. 
+#Possible futures use
+In the future Colorado could use this file for other elections one possible use case would simply changing the csv file every year in the file_to_load variable. The second use case changing the variables entirely into a new form but uses the same equations and modules. 
+
